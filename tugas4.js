@@ -33,12 +33,4 @@ switch(bulan) {
     console.log("Tanggal dan Tahun anda tidak valid")
 }
 
-let outout = ""
-
-const validTangal = tanggal > 1 && tanggal <= 31
-switch(true) {
-    case validTangal: console.log(tanggal)
-    case !validTangal: console.log("Tanggal Tidak")
-    default: console.log("Tanggal tidak valid")
-}
 
