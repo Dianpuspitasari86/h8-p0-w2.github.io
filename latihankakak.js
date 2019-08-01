@@ -1,5 +1,5 @@
-var nilai =  ;
-if(nilai >= 81 && nilai <= 100){
+var nilai = 80 ;
+ if(nilai >= 81 && nilai <= 100){
     console.log("Nilai A")
 } else if(nilai >= 76 && nilai <= 80) {
     console.log("Nilai B")
