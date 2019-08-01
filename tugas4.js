@@ -2,7 +2,6 @@ var tanggal = 17 ;
 var bulan = 01;
 var tahun = 1986;
 
-if (tanggal <32 && tanggal > 0 && tahun < 2021 && tahun > 1899) {
 switch(bulan) {
     case 1: console.log(tanggal + " Januari " + tahun);
     break;
@@ -28,9 +27,9 @@ switch(bulan) {
     break;
     case 12: console.log(tanggal + " Desember " + tahun);
     break;
+    default console.log(Bulan tidak valid);
     }
-} else {
-    console.log("Tanggal dan Tahun anda tidak valid")
-}
+
+
 
 
