@@ -13,9 +13,9 @@ Menghitung Resultan Gaya :
  
 Pseudocode
 
-1. STORE "m" with 600kg
-2. STORE "a" with 2 m/s2
-3. STORE "ΣF" without any value
+STORE m = massa benda
+STORE "a" with 2 m/s2
+STORE "ΣF" without any value
 
 CALCULATE "m" times "a"
 SET "ΣF" value with calculation result
