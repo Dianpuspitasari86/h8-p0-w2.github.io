@@ -59,11 +59,11 @@ Algoritma
 
 Pseudocode
 
-STORE "laundry" with 0
-WHILE "laundry" <20
+STORE "laundry" with 1
+WHILE "laundry"  LESS THAN 21
 ADD "laundry" by 1
   
-DISPLAY "Laundry process"  
+DISPLAY "Laundry full"  
 
 4. Tugas Periksa Kuku
 
@@ -75,17 +75,15 @@ Algoritma
 
 Pseudocode
 
-STORE "siswa/siswi" to 0
-STORE "kuku pendek" to 0
-CALCULATE "Periksa Kuku"
-WHILE "siswa/siswi" <= 40
-ADD "siswa/siswi" by 1
-IF "siswa/siswa" times "Periksa kuku" != 0
-DISPLAY "akan mendapat hukuman guru"
-ELSE
-DISPLAY " akan mendapat pujian guru"
+WHILE "siswa" LESS THAN 41
 
+    CALCULATE "siswa" + 1
 
+        STORE "reminder" to the result of calculation
 
+        IF "reminder EQUALS kuku panjang"
+            DISPLAY "hukuman"
+        ELSE IF "reminder EQUALS kuku tidak panjang"
+            DISPLAY "pujian"
 
 
